@@ -1,0 +1,51 @@
+# .NET Core and .NET
+*.DS_Store
+bin/
+obj/
+*.dll
+*.exe
+*.log
+*.user
+*.vs
+*.vscode/
+*.suo
+*.pdb
+*.cache/
+*.pyc
+*.sqlite
+*.db
+*.swp
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# Rider and Resharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!**/packages.config
+
+# Auto-generated files
+Generated_Code/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.mdf
+*.ldf
+*.db
+
+# MacOS files
+.DS_Storecd
