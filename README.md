@@ -21,6 +21,7 @@ Pacific Task is a backend project developed using **.NET 8.0**. It follows the *
 - `PacificTask.Api`: The API layer, responsible for exposing endpoints to the clients.
 - `PacificTask.Application`: This layer handles the business logic and uses **MediatR** to process requests.
 - `PacificTask.Data`: Data access layer, interacting with the database using **Dapper** and **SQLite**.
+- `PacificTask.Client`: This layer is responsible for managing external HTTP requests and communication with third-party services using native **HttpClient**. It centralizes the logic for interacting with external APIs, making the codebase more modular and maintainable.
 - `PacificTask.Tests`: Contains unit and integration tests, using **XUnit** and **Moq** for testing.
 
 ## 🚀 How to Run the Project
